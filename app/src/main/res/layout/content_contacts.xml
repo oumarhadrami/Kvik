@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.ContactsActivity"
+    tools:showIn="@layout/activity_contacts">
+    <!--contact textviews address, work hours-->
+    <TextView
+        android:id="@+id/ngoname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="cutive"
+        android:textStyle="bold"
+        android:text="  Kaushalya Vikas Kendra"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@+id/ngoname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="17dp" />
+    <TextView
+        android:id="@+id/locationtxt"
+        android:padding="3dip"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="textMultiLine"
+        android:maxLines="6"
+        android:lines="6"
+        android:text="#7, Weavers Colony Opposite Country Club, Bannerghatta Road, Bangalore – 560083"
+        android:layout_marginLeft="10dp"
+        tools:ignore="HardcodedText,TextViewEdits"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/imageButton7"
+        android:layout_toStartOf="@+id/imageButton7" />
+    <TextView
+        android:id="@+id/worktxte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+
+        android:text="Hours\n"
+        android:layout_marginTop="56dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/locationtxt"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/worktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:lines="5"
+        android:gravity="left"
+        android:text="Training Centre remains open from 9.00 AM to 9.00 PM.\n\nSunday is the weekly Holiday. KViK observes national holidays and important festival holidays"
+        android:layout_marginTop="46dp"
+        tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits"
+        android:layout_alignTop="@+id/worktxte"
+        android:layout_marginLeft="10dp" />
+
+    <!--imageButton for call,email,location and facebook-->
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="35dp"
+        tools:ignore="ContentDescription"
+        android:background="@null"
+        android:src="@drawable/ic_call_black_36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        tools:ignore="ContentDescription"
+        android:background="@null"
+        android:src="@drawable/ic_email_black_36dp"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_toRightOf="@+id/worktxte"
+        android:layout_toEndOf="@+id/worktxte" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:background="@null"
+        android:src="@drawable/ic_location_on_black_36dp"
+        tools:ignore="ContentDescription"
+        android:layout_above="@+id/textView11"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/facebook"
+        android:background="@null"
+        tools:ignore="ContentDescription"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_above="@+id/textView12"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_toEndOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_us"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_us"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignStart="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/follow_us"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8" />
+
+
+
+</RelativeLayout>

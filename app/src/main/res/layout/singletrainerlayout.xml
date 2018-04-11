@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="3dp"
+    card_view:contentPadding="2dp"
+    card_view:cardBackgroundColor="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/trainertitle"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="20sp"
+            android:id="@+id/trainerdescrption"
+            android:layout_weight="3"/>
+        <Button
+            android:id="@+id/tapply_Button"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/outline"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="Apply"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

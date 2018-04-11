@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.HelpActivity"
+    tools:showIn="@layout/activity_help">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="What is in it for you?"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="KViK provides not only skill to the young unemployed boys and girls, but also an opportunity to the financially successful and socially compassionate people to contribute to the welfare of the society. You can support KViK in achieving its vision in the following ways:"
+            android:inputType="textMultiLine"
+            android:maxLines="9"
+            android:lines="9"
+            android:textSize="18sp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="40"
+            android:lines="40"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:text="•Donate any amount as you deem fit. Your donation is eligible for 50% income tax exemption under Sec.80G of Income Tax Act. You can transfer money to KViK by NEFT (see ‘Support’ page for details), Or, send a cheque to Kaushalya Vikas Kendra,\n #7, Weavers colony, Bannerghatta Road, Bengaluru – 560083\n\n•Join as a ‘volunteer trainer’ to impart soft skills like ‘Spoken English, Work ethics, Safety’, etc.\n\n•Sponsor a student and witness the difference it makes to his/her life. Cost of training a child varies from Rs.5000 to Rs.7500 for the full course.\n\n•Provide employment or apprenticeship to the motivated trainees coming out of KViK with a new skill. Their expectations are little, but their competency surpasses any other such training training due to ‘learning by doing’ approach.\n\n•Refer a poor school/college drop out to KViK. In a few months time the student would be employed or self-employed with a sustainable livelihood. You will see the fruits of your kind gesture very quickly.\n\n•Donate equipment for training, such as, Computers, work benches, class room chairs, etc."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

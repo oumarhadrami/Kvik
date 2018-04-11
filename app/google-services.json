@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331236961658",
+    "firebase_url": "https://kvik-1ff2b.firebaseio.com",
+    "project_id": "kvik-1ff2b",
+    "storage_bucket": "kvik-1ff2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331236961658:android:42ec6ff380315555",
+        "android_client_info": {
+          "package_name": "com.example.abdelkerim.kvik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331236961658-5453918300la6okkqmhug3184g443qsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelkerim.kvik",
+            "certificate_hash": "b3b50c0c12e97a3ab9b2460b6dc7e40b0e9d2c5f"
+          }
+        },
+        {
+          "client_id": "331236961658-ul902mh8cno20n7kvo5lq0ltob4l72ur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ7R3r1p91NfLEuGtNPiRCC9ztBHbndZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331236961658-ul902mh8cno20n7kvo5lq0ltob4l72ur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

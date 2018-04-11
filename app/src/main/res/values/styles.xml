@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="buttonStyle">@style/ButtonText</item>
+        <item name="editTextStyle">@style/EditTextviewstyle</item>
+        <item name="android:textViewStyle">@style/TextviewStyle</item>
+    </style>
+
+    <style name="TextAppearance44">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <!--buttons style-->
+    <style name="ButtonText" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#00dbfb</item>
+        <item name="android:background">@drawable/outline</item>
+    </style>
+    <!--EditText style-->
+    <style name="EditTextviewstyle" parent="@android:style/Widget.EditText">
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/outline</item>
+    </style>
+
+    <style name="TextviewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDialogSchedule" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyDialogEvent" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyDialogTrainer" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LayoutUI" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+</resources>

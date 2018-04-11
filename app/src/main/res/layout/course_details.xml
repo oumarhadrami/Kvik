@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/outline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/kvik"
+        android:id="@+id/courseimagedetails"
+        tools:ignore="ContentDescription"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electrician\n"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/titledetails" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="20sp"
+        android:text="Amazing job only for the best h\n"
+        android:id="@+id/descriptiondetails" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees 5000000"
+        android:textSize="22sp"
+        android:id="@+id/feesdetails"
+        android:gravity="left"/>
+</LinearLayout>

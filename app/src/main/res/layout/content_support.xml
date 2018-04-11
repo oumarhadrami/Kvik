@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.SupportActivity"
+    tools:showIn="@layout/activity_support">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:inputType="textMultiLine"
+            android:maxLines="6"
+            android:lines="6"
+            android:text="\nDo join this crusade against poverty on one side and help the industry with badly needed skilled work force. Donate a sum in one go or in periodic frequency as per your convenience by NEFT/RETG :\n\n\n"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:lines="14"
+            android:maxLines="14"
+            android:text="Account holder’s name: Kaushalya Vikas Kendra\n\nBank: ICICI Bank, Branch: Koramangala, Bangalore\n\nAccount No: 004705010164, \nIFSC code : ICIC0000047\n\nBank address: No.5, 80 feet road, Koramangala 7th Block, Bangalore – 560095"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_marginBottom="5dp"
+            android:text="YOUR DONATION IS ELIGIBLE FOR 50% EXEMPTION U/S. 80G OF INCOME TAX ACT!"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:maxLines="38"
+            android:lines="38"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:text="KViK incurs sizable infrastructure and operational expenses to maintain its high quality, employment oriented training facility. It has engaged expert trainers and staff and rented buildings for the training centre and the dormitory at the market rates. All these are funded by private donations. The result is that every year hundreds of poor young boys, girls and housewives trained by KViK find a sustainable livelihood and live a life of dignity.\n\nHere are some testimonies:\n\n“I learnt in KViK not only basic skills in Electronics but also soft skills like speaking English, business etiquettes, etc. KViK got me placement in Reliance ResQ and opened a door for my career. Now I am an entrepreneur and in a position to open door for a career for many more with vocational skills in Electrical and Electronics.”\n– Shailendra.\n\n“Before joining KViK for training in Computer Basics and Tally, I could not speak a single sentence in English. After the 6 months training I was able to speak English as well as handle accounting transactions. As a result, I got a job in Dominos Pizza and have been very happy.”\n– Rajeshwari.\n"
+            android:layout_weight="0.50" />
+
+    </LinearLayout>
+
+</ScrollView>

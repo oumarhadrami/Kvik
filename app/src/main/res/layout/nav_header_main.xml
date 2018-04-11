@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/outline"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="0dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="98dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="0dp"
+        app:srcCompat="@drawable/kvik"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Kaushalya Vikas Kendra"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:background="#FFFFFF"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="12sp"
+        android:layout_marginBottom="3dp"
+        android:textSize="14sp"
+        android:text="  Opens door for jobs by skill development"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    
+</LinearLayout>

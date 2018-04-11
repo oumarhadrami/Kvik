@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.MissionActivity"
+    tools:showIn="@layout/activity_mission">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:maxLines="46"
+            android:text="\nKViK’s mission is to provide vocational training in trades which are in demand. It aims to extend its reach to towns and villages where large number of young people desirous of making a decent living needs to be skilled to secure employment in the industry and commerce. KViK provides short term (3 to 6 months) training for boys and girls as per government curriculum and fee structure in following skills:\n\nElectrical repair, maintenance and repair of computers, electronic equipment repair and office assistant with TALLY, Plumbing and Carpentry and Tailoring. It has plans to introduce more skills based on the needs of the industry and availability of students. In addition, KViK runs special courses for the following stakeholders:\n\nEureka Forbes for technicians to install and maintain Water Purifiers.\n\nVidya, an NGO in education for poor, summer courses in variety of skills to make them employable.\n\nKViK’s mission is to make employable young boys and girls in rural areas by training them skills which are needed in villages and towns, such as repair of computers/smart phones, repair of irrigation pump sets, installation of solar systems, wood working for buildings, furniture making, garment making, and so on. It’s focus will be on skills which can used to become a ‘self-entrepreneur’.\n\nA dormitory is being set up near the KViK training centre in Weavers Colony in South Bengaluru to house students from far away villages. The training for these students will be ‘full time’ and will be completed in 2 months."
+            android:lines="46"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits"
+             />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="Cost Effective and High Quality Training"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:maxLines="6"
+            android:text="High quality training at reasonable cost will be the corner stones on which KViK has built its credibility and reputation."
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.VisionActivity"
+    tools:showIn="@layout/activity_vision">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meet the needs of the growing Indian economy for skilled personnel"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView3" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <VideoView
+                android:id="@+id/kvikvideo"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/locationtxt"
+            android:textSize="16sp"
+            android:gravity="left"
+            android:layout_height="318dp"
+            android:layout_width="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="18"
+            android:lines="18"
+            android:text="India’s economy is growing at a fast pace. This growth is improving the income level of the people and ushering in prosperity. However, the growth is hampered due to shortage of skilled manpower in all growing industries. The efficiency and quality of work is suffering for want of skilled personnel in various trades.  These skills can be imparted by vocational training to boys and girls with school education. The training needs to be job oriented with high element of on-the-job experience and soft skills. KViK’s vision is to impart such training and bridge the gap between demand and supply for skilled Human Resource in the emerging industries."
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded,TextViewEdits" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Objective"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="Upliftment of people from economically and socially weaker sections of the society by making them ‘employable’.\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:inputType="textMultiLine"
+            android:lines="20"
+            android:maxLines="25"
+            android:text="KViK has been incorporated as a Private Limited Company under section 25 of the Companies Act. Therefore, it is a “not-for-profit” organisation with the sole aim of upliftment of people from economically and socially weaker sections of the society by making them ‘employable’. The courses selected by KViK can be learnt by a student with the basic school education. However, desire to learn, work hard and aptitude to follow discipline and self-development are necessary for a trainee to get placement and do well in a job. KViK’s curriculum provides for developing soft skills, including ‘spoken English’, which is so essential in today’s cosmopolitan nature of life in cities."
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

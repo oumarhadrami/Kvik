@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.TrainingMethoActivity"
+    tools:showIn="@layout/activity_training_metho">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="44dp"
+            android:gravity="left"
+            android:text="Cost-effective and High Quality Training.\n"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High quality training at reasonable cost is the corner stone on which KViK has built its credibility and reputation.\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:src="@drawable/metho2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:maxLines="22"
+            android:lines="22"
+            android:layout_marginLeft="10dp"
+            android:text="\nThe KViK logo indicates the focus on ‘hand skills’ and what a highly skilled person can produce. A highly skilled person also is like a diamond and valued. The curriculum of KViK is based on German “Dual training” model which emphasizes class room teaching and on-the-job training in equal measure. Emphasis is on technical skills as well as soft skills like work culture, adherence to standards, safety and discipline. The courses offered by KViK are affordable to students from economically weaker sections. The cost of the high quality training is met mainly by fees, placement fee and donations. The revenue model is designed to sustain and expand the training facilities in a steady manner.\n\n"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:src="@drawable/metho3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:maxLines="16"
+            android:lines="16"
+            android:text="\nThe DGET has recognised KViK as a Vocational Training Provider (VTP) after a rigorous process of scrutiny and validation of its infrastructure, faculty and other resources. Under the Skill Development Incentive scheme, test of students and issuing of certificates after completion of curriculum and training is done by assessing bodies appointed by DGETs. Tailoring course is based on agreement with USHA International with special curriculum, duration and fee structure.\n\n"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:src="@drawable/metho1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:maxLines="18"
+            android:lines="18"
+            android:text="\nKaushalya Vikas Kendra, as the name suggests believes that every person has the basic talent. It provides opportunity for the talent to develop in to an employable skill.\n\nThe KViK courses run on part time basis to allow poor students to earn some money by odd jobs. The class duration is 2 to 3 hours per day. Training in some skills is done in multiple batches during the day in order to utilise resources optimally. The duration of the courses vary from 3 to 6 months.\n"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

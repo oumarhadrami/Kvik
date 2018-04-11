@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.TrainerDetails"
+    tools:showIn="@layout/activity_trainer_details">
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Become A Trainer"
+        android:textSize="28dp"
+        android:gravity="center"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <EditText
+        android:id="@+id/tname_editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/outline"
+        android:ems="10"
+        android:hint="Name.."
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/teducation_editText"
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/outline"
+        android:layout_height="0dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Education.."
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/tage_editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/outline"
+        android:hint="Age.."
+        android:inputType="number"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/temail_editText"
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/outline"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@android:color/darker_gray"
+        android:ems="10"
+        android:hint="Email.."
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/cv_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/outline"
+            android:clickable="true"
+            android:padding="7dp"
+            android:gravity="start|center"
+            android:text="Upload your CV"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/tsubmit_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:background="@drawable/outline"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="22dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

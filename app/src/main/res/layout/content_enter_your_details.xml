@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.EnterYourDetailsActivity"
+    tools:showIn="@layout/activity_enter_your_details">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/become_a_student"
+        android:textSize="28sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="7dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:background="@drawable/outline"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/education_editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/outline"
+        android:hint="@string/education"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age_editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="7dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/outline"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="match_parent"
+        android:background="@drawable/outline"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <TextView
+        android:id="@+id/differentuser_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sign with different user?"
+        tools:ignore="HardcodedText"
+        android:ems="10"
+        android:background="@drawable/outline"
+        android:textSize="20sp"
+        android:textColor="#00dbfb"
+        android:padding="7dp"
+        android:layout_margin="5dp"
+         />
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:background="@drawable/outline"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="22dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="3dp"
+    card_view:contentPadding="2dp"
+    card_view:cardBackgroundColor="#ffffff"
+    android:layout_height="200dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/coursetitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="nice\n"
+            android:textSize="20sp"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/coursedescrption"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="good\n"
+            android:textSize="16sp"
+            android:layout_weight="3" />
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/viewmore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#00dbfb"
+            android:text="View More"
+            tools:ignore="HardcodedText,NestedWeights" />
+
+        <Button
+            android:id="@+id/apply_Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/outline"
+            android:text="Apply"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+       </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

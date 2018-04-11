@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.AboutActivity"
+    tools:showIn="@layout/activity_about">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nKaushalya Vikas Kendra (KViK) is a centre for skill development. Its prime objective is to make semi-literate youth from poor economic and social background ‘employable’ and to provide skilled manpower to the industries of high growth. KViK is a company set up to provide vocational training in variety of trades which are in great demand in the industry today. KViK has been set up by experienced and successful executives of companies who would like to give something back to the society."
+        android:textSize="18sp"
+        android:inputType="textMultiLine"
+        android:maxLines="22"
+        android:lines="22"
+        android:gravity="left"
+        tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

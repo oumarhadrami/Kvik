@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdelkerim.kvik.TrainingScheActivity"
+    tools:showIn="@layout/activity_training_scheactivity">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The classes run in 2 hour batches from morning to evening, to help those who work to ‘earn and learn’. Full day courses are offered to those who are not working.\n\nCurrent courses (modules):"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:maxLines="8"
+            android:lines="8"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="15dp"
+        android:id="@+id/course_list">
+    </android.support.v7.widget.RecyclerView>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="For all the above positions, previous experience is preferred. Drive, energy and willingness to work in multiple roles are must.\n\nInterested candidates can Apply"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:maxLines="8"
+             android:lines="7"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"/>
+     </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
